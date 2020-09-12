@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+
+body, .navbar   
+{
+font-family: 'Raleway';
+margin:0;
+overflow-x: hidden;
+letter-spacing: 0.02em
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 140%;
+  background-color: var(--background-color);    
+}
+
+.activeLink {
+    font-weight: bolder;
+    color: rgb(5, 134, 255);
+}
+
+.dark{
+    --background-color: #303030;
+    --heading-color: rgba(255, 255, 255, 0.7);
+    --background-color-secondary: #424242;
+}
+
+:root{
+    --background-color-secondary: rgba(219, 219, 219, 0.383);
+    --background-color: white;
+}
+
+.navbar
+{
+    padding: 3%;
+}
+
+.sideNav{
+    margin-top: 0;
+    background-color:white;
+    padding-top: 5%;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder;
+}
+
+.link:hover{
+    color: rgb(5, 134, 255);
+    cursor: pointer;
+    padding-bottom: 2px;
+    border-bottom: 3px solid rgb(5, 134, 255);
+}
+
+.outboundLink{
+    color: rgb(5, 134, 255);
+    text-decoration: none;
+}
+
+.typingeffect {
+    font-size: 150%;
+    align-items: center;
+    color: rgb(5, 134, 255);
+    font-weight: bolder;
+}
+
+.profilePic{
+    width: 100%;
+    max-width: 20vw; 
+}
+
+.content{
+    margin: 2% 0% 2% 0%;
+}
+
+.fa{
+    color: gray;
+    font-size: 100%;
+}
+
+.fa:hover{
+    color: #0586ff;
+}
+
+.bottomNav{
+    margin: 10vh 0% 2% 0%;
+    width: 100%;
+    position: relative;
+    bottom:0;
+    text-align: center;
+}
+
+.bottomNav a{
+    margin: 5vw;
+}
+
+.heading{
+    font-weight: bolder;
+    font-size: 120%;
+    color: var(--heading-color);
+}
+
+.heading2{
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.signature{
+    float: right;
+    font-size: 90%;
+    padding: 5%;
+
+}
+
+.sub-content
+{
+    color: gray;
+    font-size: 70%;
+}
+
+.xpLogo
+{
+    float: left;
+    width:100%;
+    max-width: 100px;
+    height: auto;
+    padding: 2%;
+}
+
+.xpTitleWhite
+{
+    color: white;
+    text-align: center; 
+}
+
+.xpTitleBlue
+{
+    color: #0586ff;
+    text-align: center;    
+}
+
+.xpPaper{
+    padding: 3%;
+}
+
+.xpItem{
+    margin-bottom: 2%;
+    margin-top:2%;
+}
+
+.xpDiv{
+    background-color:#0586ff;
+    padding: 2%;
+}
+
+.xpDes{
+    color: gray;
+    font-size: 60%;
+    margin-top:1% ;
+}
+
+.main-content
+{
+    margin: 2%;
+}
+
+hr{
+    width: 10%;
+}
+
+.media{
+    width: 100%;
+} 
+
+.skillChip{
+    margin-top: 3%;
+}
+
+.shadow{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skillDiv{
+    background-color:var(--background-color-secondary);
+}
+
+.switchThemeButton:hover{
+    cursor: pointer;
+}
+
+.eduItem{
+    margin-bottom: 3vh;
+}
