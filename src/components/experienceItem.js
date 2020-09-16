@@ -10,14 +10,14 @@ function ExperienceItem(props) {
         <Grid container alignItems="center" className = 'xpItem'>
             <Grid item xs={1} lg={2}></Grid>
             <Grid item xs={10} lg={8}>
-                <a href={props.weblink} rel='noopener'>
-                    <img alt={props.alt} src={props.src} className = "xpLogo"></img>
-                </a>
                 <Paper className = 'xpPaper' elevation={paperElevation} onMouseOver = {()=>setPaperElevation(20)} onMouseOut = {()=>setPaperElevation(3)}>
-                    {props.org}
+                    <a href={props.weblink} rel='noopener'>
+                        <img alt={props.alt} src={props.src} className = "xpLogo"></img>
+                    </a>
+                    <b>{props.org}</b>
                     <div className='sub-content'>
-                        <br></br>{props.role} {displayProofLink(props.proof)} 
-                        <br></br>{props.dur} 
+                        <br /><b>{props.role} </b>{displayProofLink(props.proof)} 
+                        <br />{props.dur} 
                     </div> 
                     <div className = 'xpDes'>
                         {props.des}

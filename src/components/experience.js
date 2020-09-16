@@ -30,7 +30,7 @@ class Experience extends React.Component
                                     proof = {xp.proof}
                                     src = {xp.src}
                                 />
-                                <hr></hr>
+                                <hr/>
                             </React.Fragment>
                             )
                     }

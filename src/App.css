@@ -74,8 +74,8 @@ letter-spacing: 0.02em
 }
 
 .profilePic{
-    width: 100%;
-    max-width: 20vw; 
+    max-height: 45vh;
+    max-width: 45vw; 
 }
 
 .content{
@@ -133,7 +133,7 @@ letter-spacing: 0.02em
     width:100%;
     max-width: 100px;
     height: auto;
-    padding: 2%;
+    padding: 0 6.5% 6.5% 0;
 }
 
 .xpTitleWhite
@@ -149,7 +149,7 @@ letter-spacing: 0.02em
 }
 
 .xpPaper{
-    padding: 3%;
+    padding: 6.5%;
 }
 
 .xpItem{
@@ -159,7 +159,6 @@ letter-spacing: 0.02em
 
 .xpDiv{
     background-color:#0586ff;
-    padding: 2%;
 }
 
 .xpDes{

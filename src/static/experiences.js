@@ -11,7 +11,7 @@ export const experiences = [
         org : "IEEE TEMS",
         role : "Chairperson",
         dur : "Feb' 2020 - Present",
-        des : "IEEE-Technology and Management Society is a student chapter at VIT University, Vellore. The main aim of this chapter is to bridge technology and engineering management.",
+        des : "IEEE-Technology and Management Society is a student chapter at VIT University, Vellore.",
         proof : ''
     },
     {
@@ -31,7 +31,7 @@ export const experiences = [
         org : "Haxxorz",
         role : "Event Coordinator",
         dur : "Sept' 2019",
-        des : "'Been the event Coordinator for 'Haxxorz' - A Digital Forensics Workshop in Gravitas which is an international Techno-management fest organized by VIT.",
+        des : " 'Haxxorz is a Digital Forensics workshop in Gravitas, an international Techno-management fest organized by VIT.",
         proof : "https://drive.google.com/open?id=1ZxfEhS10C6gWGoey_KC4EuxYx-0CFwT9"
     },
     {
@@ -41,7 +41,7 @@ export const experiences = [
         org : "ECIL",
         role : "Android Development intern",
         dur : "June 2019 - July 2019",
-        des : "Developed an android application 'Cool Cabs' - an application where independent drivers and cab operators can register themselves to serve the customers.",
+        des : "Developed an android application 'Cool Cabs', where independent drivers and cab operators can register to serve the customers.",
         proof : ''
     },
     {
@@ -51,7 +51,7 @@ export const experiences = [
         org : "IEEE TEMS",
         role : "Core committee member",
         dur : "Oct' 2017 – Feb' 2020",
-        des : "Been an active member of the chapter since my second semester. Being in the chapter helped me know a lot of things and also helped me develop my interpersonal skills.",
+        des : "Being an active member of the helped me know a lot of things and also helped me develop my interpersonal skills.",
         proof : ''
     },
 

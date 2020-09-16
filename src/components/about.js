@@ -27,8 +27,8 @@ class About extends React.Component
                                 <p>
                                     <br/>
                                     A Tech enthusiast motivated by the inner self. An experienced committee member with a demonstrated history of working with many other techies
-                                    <a href="https://www.linkedin.com/in/sai-nithish-mucherla" className="outboundLink" rel='noopener'> (www.linkedin.com/in/sai-nithish-mucherla)</a>.
-                                    Web Developer, Enthusiastic coder <a href="https://www.hackerrank.com/NithishMucherla" className="outboundLink" rel='noopener'>(www.hackerrank.com/NithishMucherla)</a>, Content Writer, Photographer and an Enthusiastic Leader. 
+                                    <a href="https://www.linkedin.com/in/sai-nithish-mucherla" className="outboundLink" rel='noopener'> <wbr />(www.linkedin.com/in/sai-nithish-mucherla)<wbr /></a>.
+                                    Web Developer, <a href="https://www.hackerrank.com/NithishMucherla" className="outboundLink" rel='noopener'>Enthusiastic coder</a>, Content Writer, Photographer and an Enthusiastic Leader. 
                                     <br/><br/>
                                     <b>Working to develop my skills as a techie.</b>
                                     <br/><br/>
