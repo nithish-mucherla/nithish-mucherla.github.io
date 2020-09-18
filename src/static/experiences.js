@@ -11,7 +11,7 @@ export const experiences = [
         org : "IEEE TEMS",
         role : "Chairperson",
         dur : "Feb' 2020 - Present",
-        des : "IEEE-Technology and Management Society is a student chapter at VIT University, Vellore.",
+        des : "IEEE-Technology and Engineering Management Society is a student chapter at VIT University, Vellore.",
         proof : ''
     },
     {
@@ -51,7 +51,7 @@ export const experiences = [
         org : "IEEE TEMS",
         role : "Core committee member",
         dur : "Oct' 2017 – Feb' 2020",
-        des : "Being an active member of the helped me know a lot of things and also helped me develop my interpersonal skills.",
+        des : "Being an active member of the chapter helped me know a lot of things and also helped me develop my interpersonal skills.",
         proof : ''
     },
 

@@ -4,6 +4,7 @@ import ReactTypingEffect from 'react-typing-effect';
 
 class About extends React.Component
 {
+    quote = `"It's better to fail trying rather than not trying at all!"`;
     render(){
         return(
             <Grid container className="content">
@@ -14,7 +15,7 @@ class About extends React.Component
                             <span className="heading" color = 'secondary'>About Me</span>
                             <div className='sub-content'>
                                 <br></br>
-                                <b>"It's better to fail trying rather than not trying at all!"</b>
+                                <b>{this.quote}</b>
                                 <div className='signature'>
                                     <h2 className="heading2">- Sai Nithish Mucherla<br/>Chairperson at IEEE TEMS, VIT Vellore.</h2>
                                 </div>
