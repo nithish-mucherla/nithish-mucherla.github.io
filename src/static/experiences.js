@@ -1,12 +1,12 @@
-import haxxorz from '../images/haxxorz.webp';
-import ecil from '../images/ECIL.webp';
-import riviera from '../images/riviera.webp';
-import tems from '../images/TEMS.webp';
+/*import haxxorz from '../../public/images/haxxorz.webp';
+import ecil from '../../public/images/ECIL.webp';
+import riviera from '../../public/images/riviera.webp';
+import tems from '../../public/images/TEMS.webp';*/
 
 export const experiences = [
     {
         alt : "TEMS1", 
-        src : tems,
+        src : window.location.origin+"/images/TEMS.webp",
         weblink : "https://www.linkedin.com/company/ieee-tems-vit-vellore", 
         org : "IEEE TEMS",
         role : "Chairperson",
@@ -16,7 +16,7 @@ export const experiences = [
     },
     {
         alt : "p and m", 
-        src : riviera,
+        src : window.location.origin+"/images/riviera.webp",
         weblink : "https://www.facebook.com/rivieraVITUniversity", 
         org : "Riviera",
         role : "Coordinator, Team Publicity & Marketing",
@@ -26,7 +26,7 @@ export const experiences = [
     },
     {
         alt : "haxxorz", 
-        src : haxxorz,
+        src : window.location.origin+"/images/haxxorz.webp",
         weblink : null, 
         org : "Haxxorz",
         role : "Event Coordinator",
@@ -36,7 +36,7 @@ export const experiences = [
     },
     {
         alt : "ECIL", 
-        src : ecil,
+        src : window.location.origin+"/images/ECIL.webp",
         weblink : "http://www.ecil.co.in/", 
         org : "ECIL",
         role : "Android Development intern",
@@ -46,7 +46,7 @@ export const experiences = [
     },
     {
         alt : "TEMS2", 
-        src : tems,
+        src : window.location.origin+"/images/TEMS.webp",
         weblink : "https://www.linkedin.com/company/ieee-tems-vit-vellore", 
         org : "IEEE TEMS",
         role : "Core committee member",
