@@ -1,5 +1,5 @@
 import React from 'react';
-//import profilePic from '../../images/public/nithish.webp'
+import profilePic from '../images/nithish.png'
 import Grid from '@material-ui/core/Grid';
 
 class Home extends React.Component{
@@ -14,7 +14,7 @@ class Home extends React.Component{
                 className="content"
             > 
                 <Grid item>
-                    <img src ={window.location.origin+"/nithish.png"} alt="Sai Nithish Mucherla" className='profilePic'></img>   
+                    <img src = {profilePic} alt="Sai Nithish Mucherla" className='profilePic'></img>   
                 </Grid>
             </Grid>  
         );
