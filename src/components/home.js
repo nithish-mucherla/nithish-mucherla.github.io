@@ -14,7 +14,7 @@ class Home extends React.Component{
                 className="content"
             > 
                 <Grid item>
-                    <img src ={window.location.origin+"/images/nithish.webp"} alt="Sai Nithish Mucherla" className='profilePic'></img>   
+                    <img src ={window.location.origin+"/nithish.webp"} alt="Sai Nithish Mucherla" className='profilePic'></img>   
                 </Grid>
             </Grid>  
         );

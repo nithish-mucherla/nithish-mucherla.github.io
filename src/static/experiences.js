@@ -6,7 +6,7 @@ import tems from '../../public/images/TEMS.webp';*/
 export const experiences = [
     {
         alt : "TEMS1", 
-        src : window.location.origin+"/images/TEMS.webp",
+        src : window.location.origin+"/TEMS.webp",
         weblink : "https://www.linkedin.com/company/ieee-tems-vit-vellore", 
         org : "IEEE TEMS",
         role : "Chairperson",
@@ -16,7 +16,7 @@ export const experiences = [
     },
     {
         alt : "p and m", 
-        src : window.location.origin+"/images/riviera.webp",
+        src : window.location.origin+"/riviera.webp",
         weblink : "https://www.facebook.com/rivieraVITUniversity", 
         org : "Riviera",
         role : "Coordinator, Team Publicity & Marketing",
@@ -26,7 +26,7 @@ export const experiences = [
     },
     {
         alt : "haxxorz", 
-        src : window.location.origin+"/images/haxxorz.webp",
+        src : window.location.origin+"/haxxorz.webp",
         weblink : null, 
         org : "Haxxorz",
         role : "Event Coordinator",
@@ -36,7 +36,7 @@ export const experiences = [
     },
     {
         alt : "ECIL", 
-        src : window.location.origin+"/images/ECIL.webp",
+        src : window.location.origin+"/ECIL.webp",
         weblink : "http://www.ecil.co.in/", 
         org : "ECIL",
         role : "Android Development intern",
@@ -46,7 +46,7 @@ export const experiences = [
     },
     {
         alt : "TEMS2", 
-        src : window.location.origin+"/images/TEMS.webp",
+        src : window.location.origin+"/TEMS.webp",
         weblink : "https://www.linkedin.com/company/ieee-tems-vit-vellore", 
         org : "IEEE TEMS",
         role : "Core committee member",
