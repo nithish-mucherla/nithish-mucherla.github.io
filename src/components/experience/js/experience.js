@@ -1,7 +1,8 @@
 import React from 'react';
-import ExperienceItem from '../components/experienceItem';
+import ExperienceItem from './experienceItem';
 import { Grid } from '@material-ui/core';
-import {experiences} from '../static/experiences.js'
+import {experiences} from '../../../static/experiences.js'
+import '../css/experience.css'
 
 class Experience extends React.Component
 {
@@ -13,10 +14,9 @@ class Experience extends React.Component
                 className="content xpDiv"
                 id="experienceComp"
             > 
-                <Grid item className = "xpTitleWhite">
+                <Grid item className = "sectionTitle white">
                     <h2>Experience</h2>
                 </Grid>
-
                     {
                         experiences.map( xp => 
                             <React.Fragment key={xp.alt}>

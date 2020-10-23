@@ -8,8 +8,8 @@ export const skillList = [
         avatar : "J" 
     },
     {
-        label : "C",
-        avatar : "C" 
+        label : "Data Structures & Algoithms",
+        avatar : "D"
     },
     {
         label : "HTML",
@@ -36,12 +36,16 @@ export const skillList = [
         avatar : "B" 
     },
     {
-        label : "React",
+        label : "React js",
         avatar : "R" 
     },
     {
         label : "Material-ui",
         avatar : "M" 
+    },
+    {
+        label : "REST API",
+        avatar : "R"
     },
     {
         label : "Adobe Xd",

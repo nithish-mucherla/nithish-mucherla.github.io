@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
 
-body, .navbar   
+body   
 {
 font-family: 'Raleway';
 margin:0;
@@ -33,21 +33,6 @@ letter-spacing: 0.02em
     --background-color: white;
 }
 
-.navbar
-{
-    padding: 3%;
-}
-
-.sideNav{
-    margin-top: 0;
-    background-color:white;
-    padding-top: 5%;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-}
-
 .link{
     text-decoration: none;
     color: inherit;
@@ -66,18 +51,6 @@ letter-spacing: 0.02em
     text-decoration: none;
 }
 
-.typingeffect {
-    font-size: 150%;
-    align-items: center;
-    color: rgb(5, 134, 255);
-    font-weight: bolder;
-}
-
-.profilePic{
-    max-height: 45vh;
-    max-width: 45vw; 
-}
-
 .content{
     margin: 2% 0% 2% 0%;
 }
@@ -89,18 +62,6 @@ letter-spacing: 0.02em
 
 .fa:hover{
     color: #0586ff;
-}
-
-.bottomNav{
-    margin: 10vh 0% 2% 0%;
-    width: 100%;
-    position: relative;
-    bottom:0;
-    text-align: center;
-}
-
-.bottomNav a{
-    margin: 5vw;
 }
 
 .heading{
@@ -118,53 +79,12 @@ letter-spacing: 0.02em
     float: right;
     font-size: 90%;
     padding: 5%;
-
 }
 
 .sub-content
 {
     color: gray;
     font-size: 70%;
-}
-
-.xpLogo
-{
-    float: left;
-    width:100%;
-    max-width: 100px;
-    height: auto;
-    padding: 0 6.5% 6.5% 0;
-}
-
-.xpTitleWhite
-{
-    color: white;
-    text-align: center; 
-}
-
-.xpTitleBlue
-{
-    color: #0586ff;
-    text-align: center;    
-}
-
-.xpPaper{
-    padding: 6.5%;
-}
-
-.xpItem{
-    margin-bottom: 2%;
-    margin-top:2%;
-}
-
-.xpDiv{
-    background-color:#0586ff;
-}
-
-.xpDes{
-    color: gray;
-    font-size: 60%;
-    margin-top:1% ;
 }
 
 .main-content
@@ -176,26 +96,20 @@ hr{
     width: 10%;
 }
 
-.media{
-    width: 100%;
-} 
-
-.skillChip{
-    margin-top: 3%;
-}
-
-.shadow{
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
-}
-
 .skillDiv{
     background-color:var(--background-color-secondary);
 }
 
-.switchThemeButton:hover{
-    cursor: pointer;
+.sectionTitle
+{
+    text-align: center;
 }
 
-.eduItem{
-    margin-bottom: 3vh;
+.white{
+    color: white; 
 }
+
+.blue{
+    color: #0586ff; 
+}
+

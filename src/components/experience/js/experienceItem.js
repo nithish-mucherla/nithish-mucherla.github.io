@@ -2,6 +2,7 @@ import React , {useState} from 'react';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import LinkIcon from '@material-ui/icons/Link';
+import '../css/experience.css';
 
 function ExperienceItem(props) {
 
@@ -19,7 +20,7 @@ function ExperienceItem(props) {
                         <br /><b>{props.role} </b>{displayProofLink(props.proof)} 
                         <br />{props.dur} 
                     </div> 
-                    <div className = 'xpDes'>
+                    <div className = 'xpDescription'>
                         {props.des}
                     </div>
                 </Paper>

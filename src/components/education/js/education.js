@@ -8,7 +8,7 @@ function Education() {
             container 
             id = "educationComp"
         >    
-            <Grid item xs ={12} className = "xpTitleBlue">
+            <Grid item xs ={12} className = "sectionTitle blue">
                 <h2>Education</h2>
             </Grid>
             <Grid item xs={1} lg={1}></Grid>

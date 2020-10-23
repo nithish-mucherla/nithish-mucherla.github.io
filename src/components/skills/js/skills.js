@@ -1,7 +1,8 @@
 import React from 'react';
 import {  Grid } from '@material-ui/core';
-import SkillItem from '../components/skillItem';
-import {skillList} from '../static/skills.js';
+import SkillItem from './skillItem';
+import {skillList} from '../../../static/skills.js';
+import '../css/skills.css'
 
 class Skills extends React.Component{
     render(){
@@ -11,7 +12,7 @@ class Skills extends React.Component{
                 id = "skillsComp"
             > 
 
-                <Grid item xs ={12} className = "xpTitleBlue">
+                <Grid item xs ={12} className = "sectionTitle blue">
                     <h2>Skills</h2>
                 </Grid>
                 <Grid item xs={1} lg={2}></Grid>

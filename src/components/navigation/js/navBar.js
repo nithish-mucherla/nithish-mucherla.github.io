@@ -3,6 +3,7 @@ import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import {Link} from '@material-ui/core';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import Brightness7Icon from '@material-ui/icons/Brightness7';
+import '../css/navigation.css';
 
 function Navbar(props){
 

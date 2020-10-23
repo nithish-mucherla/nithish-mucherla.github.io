@@ -1,6 +1,7 @@
 import React from 'react';
-import profilePic from '../images/nithish.png'
+import profilePic from '../../../images/nithish.png'
 import Grid from '@material-ui/core/Grid';
+import '../css/home.css';
 
 class Home extends React.Component{
 

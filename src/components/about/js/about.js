@@ -1,6 +1,7 @@
 import React from 'react';
 import {Grid} from '@material-ui/core';
 import ReactTypingEffect from 'react-typing-effect';
+import '../css/about.css';
 
 class About extends React.Component
 {
@@ -23,7 +24,7 @@ class About extends React.Component
                         </div>  
                     </Grid>
                     <Grid item xs={12} lg={6}>
-                            <span className='heading'>I'm a </span><ReactTypingEffect className="typingeffect" text={['Full-stack developer','React Developer','Photographer', 'Tech-Enthusiast']} speed={100} eraseDelay={500}/>
+                            <span className='heading'>I'm a </span><ReactTypingEffect className="typingEffect" text={['Full-stack developer','React Developer','Photographer', 'Tech-Enthusiast']} speed={100} eraseDelay={500}/>
                             <div className='sub-content'>
                                 <p>
                                     <br/>

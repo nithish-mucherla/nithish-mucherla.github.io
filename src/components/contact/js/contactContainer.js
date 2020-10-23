@@ -9,7 +9,7 @@ function ContactContainer(){
             justify = "center"
             id = 'contactComp'
         >
-            <Grid item xs={12}  className = "xpTitleBlue">
+            <Grid item xs={12}  className = "sectionTitle blue">
                 <h2>Get in Touch</h2>
             </Grid>
             <Grid item xs={1} sm={4}></Grid>

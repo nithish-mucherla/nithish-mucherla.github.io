@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
 import './App.css';
-import Navbar from './components/navBar';
-import Home from './components/home';
-import BottomNav from './components/bottomNav';
-import About from './components/about';
-import Experience from './components/experience';
-import Education from './components/education';
-import Skills from './components/skills';
+import Navbar from './components/navigation/js/navBar';
+import Home from './components/home/js/home';
+import BottomNav from './components/navigation/js/bottomNav';
+import About from './components/about/js/about';
+import Experience from './components/experience/js/experience';
+import Education from './components/education/js/education';
+import Skills from './components/skills/js/skills';
 import { ThemeProvider, createMuiTheme} from '@material-ui/core/styles';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Fab from '@material-ui/core/Fab';
-import Zoom from '@material-ui/core/Zoom';
-import { makeStyles } from '@material-ui/core/styles';
+import {Fab, Zoom, makeStyles, useScrollTrigger } from '@material-ui/core';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
-import ContactContainer from './components/contact/contactContainer';
+import ContactContainer from './components/contact/js/contactContainer';
 
 function App(props) {
 

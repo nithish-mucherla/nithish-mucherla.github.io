@@ -19,6 +19,7 @@ class SkillItem extends React.Component{
     render(){
         const style = {
             background : '#0586ff',
+            fontFamily : 'Raleway'
         };
         const styleAvatar = {
             background : 'white',

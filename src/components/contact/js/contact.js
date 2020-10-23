@@ -1,6 +1,6 @@
 import React from 'react';
 import {TextField, Button } from '@material-ui/core';
-import './contact.css'
+import '../css/contact.css'
 
 class Contact extends React.Component{
 
