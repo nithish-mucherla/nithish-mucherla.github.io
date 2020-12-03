@@ -2,10 +2,10 @@
 
 body   
 {
-font-family: 'Raleway';
-margin:0;
-overflow-x: hidden;
-letter-spacing: 0.02em
+    font-family: 'Raleway';
+    margin:0;
+    overflow-x: hidden;
+    letter-spacing: 0.02em
 }
 
 .App{
