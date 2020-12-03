@@ -1,0 +1,27 @@
+.xpDiv{
+    background-color:#0586ff;
+}
+
+.xpItem{
+    margin-bottom: 2%;
+    margin-top:2%;
+}
+
+.xpPaper{
+    padding: 6.5%;
+}
+
+.xpLogo
+{
+    float: left;
+    width:100%;
+    max-width: 100px;
+    height: auto;
+    padding: 0 6.5% 6.5% 0;
+}
+
+.xpDescription{
+    color: gray;
+    font-size: 63%;
+    margin-top:1%;
+}
