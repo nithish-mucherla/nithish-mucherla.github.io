@@ -1,115 +1,110 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap");
 
-body   
-{
-font-family: 'Raleway';
-margin:0;
-overflow-x: hidden;
-letter-spacing: 0.02em
+body {
+  font-family: "Raleway";
+  margin: 0;
+  overflow-x: hidden;
+  letter-spacing: 0.02em;
 }
 
-.App{
+.App {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 140%;
-  background-color: var(--background-color);    
+  background-color: var(--background-color);
 }
 
 .activeLink {
-    font-weight: bolder;
-    color: rgb(5, 134, 255);
+  font-weight: bolder;
+  color: rgb(5, 134, 255);
 }
 
-.dark{
-    --background-color: #303030;
-    --heading-color: rgba(255, 255, 255, 0.7);
-    --background-color-secondary: #424242;
+.dark {
+  --background-color: #303030;
+  --heading-color: rgba(255, 255, 255, 0.7);
+  --background-color-secondary: #424242;
 }
 
-:root{
-    --background-color-secondary: rgba(219, 219, 219, 0.383);
-    --background-color: white;
+:root {
+  --background-color-secondary: rgba(219, 219, 219, 0.383);
+  --background-color: white;
 }
 
-.link{
-    text-decoration: none;
-    color: inherit;
-    font-weight: bolder;
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bolder;
 }
 
-.link:hover{
-    color: rgb(5, 134, 255);
-    cursor: pointer;
-    padding-bottom: 2px;
-    border-bottom: 3px solid rgb(5, 134, 255);
+.link:hover {
+  color: rgb(5, 134, 255);
+  cursor: pointer;
+  padding-bottom: 2px;
+  border-bottom: 3px solid rgb(5, 134, 255);
 }
 
-.outboundLink{
-    color: rgb(5, 134, 255);
-    text-decoration: none;
+.outboundLink {
+  color: rgb(5, 134, 255);
+  text-decoration: none;
 }
 
-.content{
-    margin: 2% 0% 2% 0%;
+.content {
+  margin: 2% 0% 2% 0%;
 }
 
-.fa{
-    color: gray;
-    font-size: 100%;
+.fa {
+  color: gray;
+  font-size: 100%;
 }
 
-.fa:hover{
-    color: #0586ff;
+.fa:hover {
+  color: #0586ff;
 }
 
-.heading{
-    font-weight: bolder;
-    font-size: 120%;
-    color: var(--heading-color);
+.heading {
+  font-weight: bolder;
+  font-size: 120%;
+  color: var(--heading-color);
 }
 
-.heading2{
-    font-size: 100%;
-    font-weight: normal;
+.heading2 {
+  font-size: 100%;
+  font-weight: normal;
 }
 
-.signature{
-    float: right;
-    font-size: 90%;
-    padding: 5%;
+.signature {
+  float: right;
+  font-size: 90%;
+  padding: 5%;
 }
 
-.sub-content
-{
-    color: gray;
-    font-size: 70%;
+.sub-content {
+  color: gray;
+  font-size: 70%;
 }
 
-.main-content
-{
-    margin: 2%;
+.main-content {
+  margin: 2%;
 }
 
-hr{
-    width: 10%;
+hr {
+  width: 10%;
 }
 
-.skillDiv{
-    background-color:var(--background-color-secondary);
+.skillDiv {
+  background-color: var(--background-color-secondary);
 }
 
-.sectionTitle
-{
-    text-align: center;
+.sectionTitle {
+  text-align: center;
 }
 
-.white{
-    color: white; 
+.white {
+  color: white;
 }
 
-.blue{
-    color: #0586ff; 
+.blue {
+  color: #0586ff;
 }
-

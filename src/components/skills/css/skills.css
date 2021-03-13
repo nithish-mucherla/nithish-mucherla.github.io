@@ -1,7 +1,17 @@
-.skillChip{
-    margin-top: 3%;
+.skillChip {
+  margin-top: 3%;
 }
 
-.shadow{
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+.shadow {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skillDiv {
+  padding: 13vh 0 13vh 0;
+}
+
+@media only screen and (orientation: landscape) {
+  .skillDiv {
+    padding: 6vw 0 8vw 0;
+  }
 }

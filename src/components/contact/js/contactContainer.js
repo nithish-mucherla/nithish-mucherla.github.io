@@ -5,7 +5,12 @@ import BottomNav from "../../navigation/js/bottomNav";
 
 function ContactContainer() {
   return (
-    <Grid container justify="center" id="contactComp">
+    <Grid
+      container
+      justify="center"
+      id="contactComp"
+      className="contactContainer"
+    >
       <Grid item xs={12} className="sectionTitle blue">
         <h2>Get in Touch</h2>
       </Grid>
