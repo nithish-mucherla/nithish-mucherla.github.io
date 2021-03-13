@@ -13,7 +13,8 @@ export const experiences = [
     dur: "Feb' 2020 - Feb'2021",
     des:
       "IEEE-Technology and Engineering Management Society is a student chapter at VIT University, Vellore.",
-    proof: "",
+    proof:
+      "https://drive.google.com/file/d/1TfjoavsBzyFZySsSvGbZDRL_Kc1uXou_/view?usp=sharing",
   },
   {
     alt: "p and m",
