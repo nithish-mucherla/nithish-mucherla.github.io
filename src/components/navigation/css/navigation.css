@@ -1,20 +1,11 @@
-.navbar
-{
-    padding: 3%;
+.navbar {
+  padding: 3%;
 }
 
-.switchThemeButton:hover{
-    cursor: pointer;
+.switchThemeButton:hover {
+  cursor: pointer;
 }
 
-.bottomNav{
-    margin: 10vh 0% 2% 0%;
-    width: 100%;
-    position: relative;
-    bottom:0;
-    text-align: center;
-}
-
-.bottomNav a{
-    margin: 5vw;
+.bottomNav {
+  padding: 10vh 0vh 7vh 0;
 }
