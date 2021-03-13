@@ -7,7 +7,7 @@ export const experiences = [
   {
     alt: "TEMS1",
     src: tems,
-    weblink: "https://www.linkedin.com/company/ieee-tems-vit-vellore",
+    weblink: "https://ieeetemsvit.org",
     org: "IEEE TEMS",
     role: "Chairperson",
     dur: "Feb' 2020 - Feb'2021",
@@ -52,7 +52,7 @@ export const experiences = [
   {
     alt: "TEMS2",
     src: tems,
-    weblink: "https://www.linkedin.com/company/ieee-tems-vit-vellore",
+    weblink: "https://ieeetemsvit.org",
     org: "IEEE TEMS",
     role: "Core committee member",
     dur: "Oct' 2017 – Feb' 2020",
