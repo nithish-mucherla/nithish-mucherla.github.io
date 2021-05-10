@@ -5,7 +5,7 @@ import "../css/education.css";
 function EducationItem({ org, level, branch, percentage, dur, des, dataAos }) {
   const [paperElevation, setPaperElevation] = useState(2);
   return (
-    <div className="eduItem" data-aos={dataAos}>
+    <div className="eduItem" data-aos="fade-up">
       <Paper
         className="eduPaper"
         elevation={paperElevation}
