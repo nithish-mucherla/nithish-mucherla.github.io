@@ -18,6 +18,7 @@ function Education() {
             percentage={"CGPA : 9.41"}
             dur={"2017 - present"}
             des={"Activities & Societies : Chairperson of IEEE TEMS"}
+            dataAos="fade-right"
           />
         </Grid>
         <Grid item xs={12} lg={5}>
@@ -27,6 +28,7 @@ function Education() {
             branch={"Maths, Physics, Chemistry"}
             percentage={"Percentage : 98.3%"}
             dur={"2015 - 2017"}
+            dataAos="fade-left"
           />
         </Grid>
       </Grid>
