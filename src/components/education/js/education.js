@@ -15,7 +15,7 @@ function Education() {
             org={"VIT, Vellore."}
             level={"Bachelor of Technology"}
             branch={"Computer Science and Engineering"}
-            percentage={"CGPA : 9.41"}
+            percentage={"CGPA : 9.40"}
             dur={"2017 - present"}
             des={"Activities & Societies : Chairperson of IEEE TEMS"}
             dataAos="fade-right"

@@ -1,23 +1,22 @@
 .xpDiv {
   background-color: #0586ff;
   padding: 13vh 0 15vh 0;
+  text-align: center;
 }
 
 .xpItem {
   margin-bottom: 2%;
   margin-top: 2%;
-}
-
-.xpPaper {
-  padding: 6.5%;
+  width: 80% !important;
+  height: 100%;
+  padding: 6%;
 }
 
 .xpLogo {
-  float: left;
   width: 100%;
   max-width: 100px;
   height: auto;
-  padding: 0 6.5% 6.5% 0;
+  padding: 6.5%;
 }
 
 .xpDescription {
@@ -26,8 +25,9 @@
   margin-top: 1%;
 }
 
-@media only screen and (orientation: landscape) {
+@media only screen and (min-width: 960px) {
   .xpDiv {
     padding: 8vw 0 8vw 0;
+    text-align: unset;
   }
 }

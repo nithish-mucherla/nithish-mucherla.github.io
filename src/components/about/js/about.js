@@ -32,8 +32,9 @@ class About extends React.Component {
             <ReactTypingEffect
               className="typingEffect"
               text={[
-                "Full-stack developer",
+                "Full-stack Web developer",
                 "React Developer",
+                "Blockchain enthusiast",
                 "Photographer",
                 "Tech-Enthusiast",
               ]}
@@ -42,7 +43,12 @@ class About extends React.Component {
             />
             <div className="sub-content">
               <p>
-                <br />A Tech enthusiast motivated by the inner self. An
+                <br />A Tech enthusiast motivated by the inner self, exploring various technologies. A firm believer of 
+                <a
+                  href="https://github.com/nithish-mucherla"
+                  className="outboundLink"
+                  rel="noopener"
+                ><b> learning by implementation.</b></a> An
                 experienced committee member with a demonstrated history of
                 working with many other techies
                 <a
@@ -51,17 +57,19 @@ class About extends React.Component {
                   rel="noopener"
                 >
                   {" "}
-                  <wbr />
+                  <wbr /><b>
                   (www.linkedin.com/in/sai-nithish-mucherla)
+                  </b>
+                  
                   <wbr />
                 </a>
-                . Web Developer,{" "}
+                . Web Developer, {" "}
                 <a
                   href="https://www.hackerrank.com/NithishMucherla"
                   className="outboundLink"
                   rel="noopener"
                 >
-                  Enthusiastic coder
+                <b>  Enthusiastic coder</b>
                 </a>
                 , Content Writer, Photographer and an Enthusiastic Leader.
                 <br />
@@ -75,7 +83,7 @@ class About extends React.Component {
                   className="outboundLink"
                   rel="noopener"
                 >
-                  (IEEE TEMS)
+                <b>  (IEEE TEMS)</b>
                 </a>
                 , starting my journey as a committee member, made me know my
                 potential and push my limits furthermore. It also helped me

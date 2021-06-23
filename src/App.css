@@ -25,11 +25,13 @@ body {
   --background-color: #303030;
   --heading-color: rgba(255, 255, 255, 0.7);
   --background-color-secondary: #424242;
+  --text-color: #ffffffa6;
 }
 
 :root {
   --background-color-secondary: rgba(219, 219, 219, 0.383);
   --background-color: white;
+  --text-color: #2e2e2eed;
 }
 
 .link {
@@ -81,7 +83,7 @@ body {
 }
 
 .sub-content {
-  color: gray;
+  color: var(--text-color);
   font-size: 70%;
 }
 

@@ -48,6 +48,14 @@ export const skillList = [
         avatar : "R"
     },
     {
+        label: 'Blockchain',
+        avatar: "B"
+    },
+    {
+        label: 'DAPPs',
+        avatar: 'D'
+    },
+    {
         label : "Adobe Xd",
         avatar : "A" 
     },
