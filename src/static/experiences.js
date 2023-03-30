@@ -29,7 +29,7 @@ export const experiences = [
         at VIT University, Vellore. {<br />}
         Developed the initial version of the chapter website &nbsp;
         {
-          <a href="ieeetemsvit.org" className="link">
+          <a href="https://ieeetemsvit.org" className="link">
             TEMS VIT
           </a>
         }
