@@ -1,12 +1,10 @@
-import React, { useState } from "react";
-import ExperienceItem from "./experienceItem";
 import { Grid } from "@material-ui/core";
+import React from "react";
 import { experiences } from "../../../static/experiences.js";
-import Paper from "@material-ui/core/Paper";
 import "../css/experience.css";
+import ExperienceItem from "./experienceItem";
 
 const Experience = () => {
-  const [paperElevation, setPaperElevation] = useState(3);
   return (
     <Grid
       container

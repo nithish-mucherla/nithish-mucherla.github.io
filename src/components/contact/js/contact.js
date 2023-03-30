@@ -115,7 +115,7 @@ class Contact extends React.Component {
 
   sendFeedback(templateId, variables) {
     window.emailjs
-      .send("gmail", templateId, variables)
+      .send("default_service", templateId, variables)
       .then((res) => {
         console.log("Email successfully sent!");
       })

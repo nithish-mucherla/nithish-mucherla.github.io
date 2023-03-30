@@ -1,0 +1,33 @@
+.xpDiv {
+  background-color: #0586ff;
+  padding: 13vh 0 15vh 0;
+  text-align: center;
+}
+
+.xpItem {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  width: 80% !important;
+  height: 100%;
+  padding: 6%;
+}
+
+.xpLogo {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  padding: 6.5%;
+}
+
+.xpDescription {
+  color: gray;
+  font-size: 63%;
+  margin-top: 1%;
+}
+
+@media only screen and (min-width: 960px) {
+  .xpDiv {
+    padding: 8vw 0 8vw 0;
+    text-align: unset;
+  }
+}

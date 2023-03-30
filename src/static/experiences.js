@@ -1,9 +1,21 @@
-import haxxorz from "../images/haxxorz.png";
+import React from "react";
+import citi from "../images/Citi.avif";
 import ecil from "../images/ECIL.png";
+import haxxorz from "../images/haxxorz.png";
 import riviera from "../images/riviera.png";
 import tems from "../images/TEMS.png";
 
 export const experiences = [
+  {
+    alt: "CITI",
+    src: citi,
+    weblink: "https://www.citigroup.com/",
+    org: "CITI",
+    role: "Technology Analyst",
+    dur: "June 2021 - Present",
+    des: "Technology analyst at Citi CSIPL, Chennai.",
+    proof: "",
+  },
   {
     alt: "TEMS1",
     src: tems,
@@ -11,8 +23,18 @@ export const experiences = [
     org: "IEEE TEMS",
     role: "Chairperson",
     dur: "Feb' 2020 - Feb'2021",
-    des:
-      "IEEE-Technology and Engineering Management Society is a student chapter at VIT University, Vellore.",
+    des: (
+      <div>
+        IEEE-Technology and Engineering Management Society is a student chapter
+        at VIT University, Vellore. {<br />}
+        Developed the initial version of the chapter website &nbsp;
+        {
+          <a href="ieeetemsvit.org" className="link">
+            TEMS VIT
+          </a>
+        }
+      </div>
+    ),
     proof:
       "https://drive.google.com/file/d/1TfjoavsBzyFZySsSvGbZDRL_Kc1uXou_/view?usp=sharing",
   },
@@ -23,8 +45,7 @@ export const experiences = [
     org: "Riviera",
     role: "Coordinator, Team Publicity & Marketing",
     dur: "Feb' 2019",
-    des:
-      "'Publicity & Marketing' is one of the organizing committees of Riviera'20, an international cultural fest organized by VIT.",
+    des: "'Publicity & Marketing' is one of the organizing committees of Riviera'20, an international cultural fest organized by VIT.",
     proof:
       "https://drive.google.com/file/d/1rPKF5HBN1g3eyBsy-abl0KqHg-sOaVGX/view?usp=drivesdk",
   },
@@ -35,8 +56,7 @@ export const experiences = [
     org: "Haxxorz",
     role: "Event Coordinator",
     dur: "Sept' 2019",
-    des:
-      " 'Haxxorz is a Digital Forensics workshop in Gravitas, an international Techno-management fest organized by VIT.",
+    des: " 'Haxxorz is a Digital Forensics workshop in Gravitas, an international Techno-management fest organized by VIT.",
     proof: "https://drive.google.com/open?id=1ZxfEhS10C6gWGoey_KC4EuxYx-0CFwT9",
   },
   {
@@ -46,8 +66,7 @@ export const experiences = [
     org: "ECIL",
     role: "Android Development intern",
     dur: "June 2019 - July 2019",
-    des:
-      "Developed an android application 'Cool Cabs', where independent drivers and cab operators can register to serve the customers.",
+    des: "Developed an android application 'Cool Cabs', where independent drivers and cab operators can register to serve the customers.",
     proof: "",
   },
   {
@@ -57,8 +76,7 @@ export const experiences = [
     org: "IEEE TEMS",
     role: "Core committee member",
     dur: "Oct' 2017 – Feb' 2020",
-    des:
-      "Being an active member of the chapter helped me know a lot of things and also helped me develop my interpersonal skills.",
+    des: "Being an active member of the chapter helped me know a lot of things and also helped me develop my interpersonal skills.",
     proof: "",
   },
 ];
