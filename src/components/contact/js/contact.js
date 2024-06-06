@@ -131,7 +131,7 @@ class Contact extends React.Component {
     return (
       <React.Fragment>
         <div className="successMessage">{this.state.successMessage}</div>
-        <form noValidate autoComplete="off">
+        <form noValidate autoComplete="off" className="contactForm">
           <TextField
             label="Name"
             name="name"
@@ -171,7 +171,7 @@ class Contact extends React.Component {
           />
           <Button
             variant="contained"
-            color="primary"
+            className="submitContact"
             fullWidth
             onClick={this.handleSubmit}
           >

@@ -20,12 +20,16 @@ export const skillList = [
     avatar: "J",
   },
   {
+    label: "Typescript",
+    avatar: "W",
+  },
+  {
     label: "React js",
     avatar: "R",
   },
   {
     label: "Node js + Express",
-    avatar: "N-E",
+    avatar: "NE",
   },
   {
     label: "Bootstrap",
@@ -44,7 +48,11 @@ export const skillList = [
     avatar: "SE",
   },
   {
-    label: "SPLUNK",
+    label: "Cypress",
+    avatar: "C",
+  },
+  {
+    label: "Splunk",
     avatar: "SP",
   },
   {
@@ -56,12 +64,12 @@ export const skillList = [
     avatar: "#",
   },
   {
-    label: "PHP",
-    avatar: "P",
-  },
-  {
     label: "REST API",
     avatar: "R",
+  },
+  {
+    label: "Postman",
+    avatar: "P",
   },
   {
     label: "Blockchain",
@@ -84,23 +92,15 @@ export const skillList = [
     avatar: "A",
   },
   {
-    label: "Photography",
-    avatar: "P",
+    label: "Micro frontend",
+    avatar: "MF",
   },
   {
-    label: "Web Content Writing",
+    label: "Minimal API",
+    avatar: "M",
+  },
+  {
+    label: "Webpack",
     avatar: "W",
-  },
-  {
-    label: "Leadership",
-    avatar: "L",
-  },
-  {
-    label: "Public Speaking",
-    avatar: "P",
-  },
-  {
-    label: "Team Management",
-    avatar: "T",
   },
 ];

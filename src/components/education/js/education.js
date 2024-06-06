@@ -9,7 +9,7 @@ function Education() {
         <h2>Education</h2>
       </Grid>
       <Grid item xs={1} lg={1}></Grid>
-      <Grid container item xs={10} lg={10} justify="space-evenly">
+      <Grid container item xs={10} lg={10} justifyContent="space-evenly">
         <Grid item xs={12} lg={5}>
           <EducationItem
             org={"VIT, Vellore."}

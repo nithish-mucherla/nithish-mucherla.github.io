@@ -6,7 +6,7 @@ import About from "./components/about/js/about";
 import Experience from "./components/experience/js/experience";
 import Education from "./components/education/js/education";
 import Skills from "./components/skills/js/skills";
-import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+import { ThemeProvider, createTheme } from "@material-ui/core/styles";
 import { Fab, Zoom, makeStyles, useScrollTrigger } from "@material-ui/core";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import ContactContainer from "./components/contact/js/contactContainer";
@@ -17,13 +17,16 @@ function App(props) {
   // Hooks allow us to use state and other react features without defining a class.
 
   const [darkMode, setDarkMode] = useState(
-    localStorage.getItem("darkMode") || "true"
+    localStorage.getItem("darkMode") || "false"
   );
-  const theme = createMuiTheme({
+  const theme = createTheme({
     palette: {
       type: darkMode === "true" ? "dark" : "light",
       primary: {
         main: "#0586ff",
+      },
+      background: {
+        paper: darkMode === "true" ? "#282a36" : "#f8f8f2",
       },
     },
   });
@@ -79,8 +82,8 @@ function App(props) {
         <Home />
         <About />
         <Experience />
-        <Education />
         <Skills />
+        <Education />
         <ContactContainer />
         <ScrollTop {...props}>
           <Fab color="secondary" size="medium" aria-label="scroll back to top">

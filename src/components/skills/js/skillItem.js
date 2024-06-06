@@ -1,44 +1,39 @@
 import React from "react";
+import { useRef } from "react";
 import { Chip, Avatar } from "@material-ui/core";
 
-class SkillItem extends React.Component {
-  constructor(props) {
-    super(props);
-    this.ref = React.createRef();
-  }
-
-  addShadow = () => {
-    this.ref.current.classList.add("shadow");
+const SkillItem = (props) => {
+  const ref = useRef();
+  const addShadow = () => {
+    ref.current.classList.add("shadow");
   };
 
-  removeShadow = () => {
-    this.ref.current.classList.remove("shadow");
+  const removeShadow = () => {
+    ref.current.classList.remove("shadow");
   };
 
-  render() {
-    const style = {
-      background: "#0586ff",
-      fontFamily: "Raleway",
-    };
-    const styleAvatar = {
-      background: "white",
-      color: "#0586ff",
-    };
-    return (
-      <Chip
-        id={this.props.label}
-        ref={this.ref}
-        className="skillChip"
-        style={style}
-        avatar={<Avatar style={styleAvatar}> {this.props.avatar} </Avatar>}
-        label={this.props.label}
-        color="primary"
-        onMouseOver={this.addShadow}
-        onMouseOut={this.removeShadow}
-        data-aos="zoom-in"
-      />
-    );
-  }
-}
+  const style = {
+    background: "#ff79c6",
+    fontFamily: "Fira Code",
+  };
+  const styleAvatar = {
+    background: "white",
+    color: "#ff79c6",
+  };
+  return (
+    <Chip
+      id={props.label}
+      ref={ref}
+      className="skillChip"
+      style={style}
+      avatar={<Avatar style={styleAvatar}> {props.avatar} </Avatar>}
+      label={props.label}
+      color="primary"
+      onMouseOver={addShadow}
+      onMouseOut={removeShadow}
+      data-aos="zoom-in"
+    />
+  );
+};
 
 export default SkillItem;

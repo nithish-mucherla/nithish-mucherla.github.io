@@ -7,6 +7,11 @@
   color: inherit;
 }
 
+.submitContact {
+  background-color: #ff79c6 !important;
+  color: #f8f8f2 !important;
+}
+
 .contactContainer {
   padding: 13vh 0 13vh 0;
 }

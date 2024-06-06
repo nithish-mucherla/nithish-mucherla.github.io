@@ -22,7 +22,7 @@ const Experience = () => {
             alt={xp.alt}
             weblink={xp.weblink}
             org={xp.org}
-            role={xp.role}
+            roles={xp.roles}
             dur={xp.dur}
             des={xp.des}
             proof={xp.proof}
